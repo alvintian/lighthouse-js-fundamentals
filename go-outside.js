@@ -1,11 +1,13 @@
-var temperature = -1;
+var seasons = ["spring", "summer", "fall"];
+var length = seasons.length;
 
-if (temperature < 0) {
-  console.log("Make sure you pick out a scarf!");
-} else if (temperature < 15) {
-  console.log("Short sleeves won't cut it!");
-} else {
-  console.log("Short sleeves are fine.");
-}
+seasons.push("winter");
 
-console.log("Now you're ready to go outside!");
+console.log(length);
+console.log(seasons.length);
+
+var a = 3;
+var b = 4;
+b = a;
+a=a+5;
+console.log(b);
