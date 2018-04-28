@@ -1,7 +1,5 @@
-function sayHello(name) {
-  console.log("Hello, " + name);
-}
-
-sayHello("Caliban");
-sayHello("Miranda");
-sayHello("Ferdinand");
+let doh = "Doh";
+console.log(typeof doh.toUpperCase);
+// → function
+console.log(doh.toUpperCase());
+// → DOH
